@@ -6,10 +6,9 @@
 
     <title>{{ config('app.name', 'Laravel') }}</title>
 
-    @fonts
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
-<body>
-
+<body class="text-[16px]">
+<x-header></x-header>
 </body>
 </html>
