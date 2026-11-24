@@ -4,11 +4,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>{{ config('app.name', 'AppLab') }}</title>
 
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body class="text-[16px]">
-<x-header></x-header>
+@include('components.icons')
+<x-sections.header/>
+<x-sections.hero/>
 </body>
 </html>

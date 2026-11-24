@@ -2,7 +2,7 @@
     <x-container class="flex items-center justify-center min-h-[266px]">
         <x-logo/>
         <x-nav class="ml-auto"/>
-        <x-button class="w-[170px] ml-[57px]">
+        <x-button class="ml-[57px]">
             Try for free
         </x-button>
     </x-container>
