@@ -5,9 +5,9 @@
     <x-container class="relative z-10 flex items-center">
         <div class="absolute inset-0">
             <img src="{{ Vite::asset('resources/images/hero/background/figures1.svg') }}"
-                 class="absolute -right-[104px] -bottom-[2px] w-[1600px] h-[865px] max-w-none">
+                 class="absolute -right-[89px] -bottom-[2px] w-[1600px] h-[865px] max-w-none">
             <img src="{{ Vite::asset('resources/images/hero/background/figures2.png') }}"
-                 class="absolute -left-[206px] bottom-[160px]  w-[788px] h-[630px] max-w-none">
+                 class="absolute -left-[191px] bottom-[160px]  w-[788px] h-[630px] max-w-none">
         </div>
         <div class="ml-[70px] mr-[72px]">
             <x-award/>
@@ -24,7 +24,7 @@
                 <x-link href="#" class="text-[#2500f9]">Watch demo video</x-link>
             </div>
         </div>
-        <div class="w-[446px] mt-[19px] mb-[16px] self-start">
+        <div class="w-[446px] mt-[19px] mb-[16px] self-start drop-shadow-[0_20px_30px_rgba(36,47,81,0.25)]">
             <img class="w-full h-[816px]"
                  src="{{ Vite::asset('resources/images/hero/phone.svg') }}"
                  alt="AppLab in phone">
